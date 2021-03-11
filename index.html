@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Blackjack</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <div class="game">
+      <header>
+        <h1>BLACKJACK</h1>
+      </header>
+      <div class="game-body">
+        <div>
+          <div class="game-options">
+            <input
+              type="button"
+              id="btnStart"
+              class="btn"
+              value="start"
+              onclick="start()"
+            />
+            <input type="button" class="btn" value="Hit me" onclick="hit()" />
+            <input type="button" class="btn" value="Stand" onclick="stand()" />
+            <input
+              type="button"
+              class="btn"
+              value="Double Down"
+              onclick="doubleDown()"
+            />
+          </div>
+          <div class="status" id="status"></div>
+        </div>
+        <div id="deck" class="deck">
+          <div id="deckcount">52</div>
+        </div>
+        <div id="players" class="players"></div>
+
+        <div class="clear"></div>
+      </div>
+    </div>
+  </body>
+</html>

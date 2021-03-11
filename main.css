@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(background.jpg);
+}
+.game {
+  width: 80vw;
+  border: solid 1px #ddd;
+  margin: 0 auto;
+  background-image: url(tablepic.jpg);
+  background-size: cover;
+  border: solid 1vw black;
+  text-align: center;
+  min-height: 80vh;
+}
+
+.btn {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.deck {
+  float: left;
+  background-image: url(checkered.jpg);
+  color: #222;
+  padding: 10px;
+  border-radius: 10px;
+  border: double 5px;
+}
+
+.btn {
+  background: #222;
+  color: white;
+  border-radius: 0px;
+}
+.btn:hover {
+  background: darkgreen;
+}
+
+.game h1 {
+  padding: 10px;
+  color: gold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.game .game-body {
+  padding: 20px;
+}
+
+.game .game-options {
+  text-align: center;
+}
+.game .card {
+  width: 50px;
+  height: 80px;
+  padding: 10px;
+  border: solid 1px #808080;
+  background-image: url(table2.jfif);
+  background-size: cover;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 10pt;
+  text-align: center;
+  margin: 3px;
+  border: solid 3px;
+}
+
+.game .status {
+  display: inline-block;
+  background: gold;
+  border: solid 5px white;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: none;
+}
+
+.players {
+  min-width: 50%;
+  min-height: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.player {
+  width: 40%;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+  margin: 1%;
+  vertical-align: top;
+}
+
+.player.active {
+  border: solid 5px gold;
+}
+
+.points {
+  text-align: center;
+  font-size: 20pt;
+  font-weight: bold;
+  margin: 10px;
+}
